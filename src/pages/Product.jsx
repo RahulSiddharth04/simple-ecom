@@ -8,9 +8,9 @@ import { addCart } from "../redux/action";
 import { Footer, Navbar } from "../components";
 
 const Product = () => {
-  const { id } = useParams();
-  const [product, setProduct] = useState([]);
-  const [similarProducts, setSimilarProducts] = useState([]);
+  const { id }=useParams();
+  const [product, setProduct]=useState([]);
+  const [similarProducts,setSimilarProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [loading2, setLoading2] = useState(false);
 
